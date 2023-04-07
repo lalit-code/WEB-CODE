@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    
+}
+
+.logo{
+    background-color: brown;
+    float: left;
+    width: 30%;
+    line-height: 80px;
+    text-align: center;
+}
+
+
+.menu{
+    background-color: bisque;
+    float: right;
+    width: 70%;
+    line-height: 80px;
+    text-align: right;
+    
+}
+
+li{
+    list-style: none;
+    border: 2px dotted black;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+li:hover{
+  background-color: rgb(205, 159, 104);
+}
