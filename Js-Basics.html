@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>JS Practice</title>
+
+    <!-- ?<h1>JS Basics Practice</h1> -->
+
+
+
+
+<body>
+    <h2>This is the body H1</h2>
+    <p id="phead">Writing markup with JSX</p>
+    <p>
+        The markup syntax youve seen above is called JSX. It is optional, but most React projects use JSX for its
+        convenience. All of the tools we recommend for local development support JSX out of the box.
+
+        JSX is stricter than HTML. You have to close tags like <br />
+
+    </p>
+    <p id="infoname">React JS DATA</p>
+</body>
+
+
+
+<script>
+
+    var order = 10;
+    
+    function increment() {
+        order++;
+    }
+    
+    function decrement() {
+        order--;
+    }
+    console.log("okok");
+    
+    // document.write("Haaan theek theek");
+    document.write("Order = " + order);
+    
+    increment();
+    
+    
+    
+    
+    
+    
+    
+    
+    // Function argument / return /  
+    
+    function uss(name1, name2) {
+        var text = name1 + " is a friend of " + name2;
+        return text;
+    }
+    
+    console.log(uss("Lallu", "annu"));
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // The condition 
+    
+    if (order < 15) {
+        document.write("Minimum order is 10");
+    }
+    
+    
+    
+    var rollno = [51, 37, 58, 15];
+    rollno.sort();
+    for (let index = 0; index < rollno.length; index++) {
+        if (rollno[index] == 37) {
+            continue;
+        }
+    
+        console.log(rollno[index] + " ");
+    }
+    
+    
+    
+    var data = {
+        name: "lalit", roll: 37
+    };
+    
+    console.log(data);
+    
+    
+    
+    
+    
+    
+           // DOM Manupulation 
+    
+          const ok = document.querySelectorAll('p');
+          console.log(ok);
+        
+    
+           document.getElementById("infoname").innerHTML = "The text from the intro paragraph is: ";
+    
+           console.log(document.getElementsByTagName("body"));
+
+
+
+
+
+
+
+
+           //Event 
+    
+    
+    
+    
+    
+    
+    
+    
+        </script>
+
+
+</html>
